@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.title{
+    height: 200px;
+    background-color: #dcdca0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #8d8871;
+}
+
+.title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+main {
+    background-image: url('../images/concept/concept_back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    
+}
+
+.cafe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.cafe-text{
+    max-width: 500px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.cafe_left {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.cafe_left .cafe-text {
+    margin-left: 40px;
+    margin-right: 0;
+    margin-bottom: 50px;
+}
+
+.cafe-text h2{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.cafe-text h2::after{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.cafe-text p{
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
+}
